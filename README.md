@@ -3,9 +3,12 @@
 ## Introduction
 
 A package for removing tracing parameters from URLs. This package supports:
-- Automatically updating filtering rules from Adguard.
+- *Automatically updating* filtering rules from Adguard.
 - Custom filtering rules.
-- Host pathname specific filtering.
+- *Host pathname specific* filtering.
+- *Hundreds of filtering rules* for using!
+
+Inspired by [ClearUrl](https://github.com/ttttmr/ClearUrl) and 
 
 ## Examples
 
@@ -22,7 +25,7 @@ A package for removing tracing parameters from URLs. This package supports:
 
 ### Clean URLs
 
-```
+```python3
 from url_cleaner import UrlCleaner
 c = UrlCleaner()
 url = "https://baijiahao.baidu.com/s?id=1748839822649920321&wfr=spider&for=pc"
@@ -30,11 +33,11 @@ cleaned = c.clean(url)
 print(cleaned)
 ```
 
-> https://baijiahao.baidu.com/s?id=1748839822649920321
+https://baijiahao.baidu.com/s?id=1748839822649920321
 
 ### Update rules
 
-```
+```python3
 from url_cleaner import UrlCleaner
 c = UrlCleaner()
 c.ruler.update_rules()
