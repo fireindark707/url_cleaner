@@ -8,7 +8,11 @@ A package for removing tracing parameters from URLs. This package supports:
 - *Host pathname specific* filtering.
 - *Hundreds of filtering rules* for using!
 
-Inspired by [ClearUrl](https://github.com/ttttmr/ClearUrl) and 
+Inspired by [ClearUrl](https://github.com/ttttmr/ClearUrl) and [URL Bot](https://github.com/yingziwu/url_bot), thanks for their efforts!
+
+Rules from:
+- [AdguardFilters]("https://github.com/AdguardTeam/AdguardFilters/raw/master/TrackParamFilter/sections/")
+- [url_bot]("https://github.com/yingziwu/url_bot/blob/master/src/rules-trackparm.ts")
 
 ## Examples
 
