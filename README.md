@@ -1,5 +1,7 @@
 # URL Cleaner
 
+[![PyPI version](https://badge.fury.io/py/url-cleaner.svg)](https://badge.fury.io/py/url-cleaner)
+
 ## Introduction
 
 A package for removing tracing parameters from URLs. This package supports:

@@ -1,6 +1,6 @@
 [project]
 name = "url_cleaner"
-version = "0.1.2"
+version = "0.1.3"
 authors = [
   { name="phoenix000", email="phoenix000.taipei@gmail.com" },
 ]
