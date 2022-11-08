@@ -1,0 +1,203 @@
+!
+! This section contains the list of generic `$removeparam` rules that are applied on every website.
+! You should only put here known parameters that are used on many websites.
+! IMPORTANT: add a comment that explains where this parameter comes from (what tracking company is using it).
+! Ideally, supply a link to the document that explains how this parameter is used.
+!
+! Good: $removeparam=utm_id
+! Bad:  $removeparam=utm_id,domain=example.org (for instance, should be in specific.txt)
+!
+! Cxense clickthrough tracking
+$removeparam=cx_click
+! Marketo email tracking
+$removeparam=mkt_tok
+! Mindbox email tracking
+$removeparam=mindbox-message-key
+! klaviyo.com email tracking
+$removeparam=_kx
+! https://github.com/AdguardTeam/AdguardFilters/issues/123544
+! ad click tracking
+/?uclick=*;uclickhash=$removeparam
+&uclick=*&uclickhash=$removeparam
+! PopMagic clickthrough tracking
+/?r=dir&zoneid=$removeparam
+/?rb=*&zoneid=$removeparam
+! Adobe SiteCatalyst Campaign Tracking ID parameter
+$removeparam=s_cid
+! awin.com
+$removeparam=awc
+! Hubspot tracking https://knowledge.hubspot.com/ads/ad-tracking-in-hubspot
+$removeparam=__hsfp
+$removeparam=__hssc
+$removeparam=__hstc
+$removeparam=_hsenc
+$removeparam=hsa_acc
+$removeparam=hsa_ad
+$removeparam=hsa_cam
+$removeparam=hsa_grp
+$removeparam=hsa_kw
+$removeparam=hsa_la
+$removeparam=hsa_mt
+$removeparam=hsa_net
+$removeparam=hsa_ol
+$removeparam=hsa_src
+$removeparam=hsa_tgt
+$removeparam=hsa_ver
+$removeparam=hsCtaTracking
+! Yandex Metrika
+$removeparam=ysclid
+$removeparam=yclid
+! https://github.com/AdguardTeam/AdguardFilters/issues/120318 if ads on PC is clicked
+$removeparam=aiad_clid
+! https://segmentify.github.io/segmentify-dev-doc/integration_web/
+$removeparam=_sgm_campaign
+$removeparam=_sgm_source
+$removeparam=_sgm_action
+! drip.com https://help.drip.com/hc/en-us/articles/4424695632269-Suppress-s-From-Rendered-Links
+! It looks like that this parameter is used not only for tracking purpose - https://github.com/AdguardTeam/AdguardFilters/issues/128631
+! so to make it less problematic, it will be blocked only if contains at least 6 characters - numbers and letters
+$removeparam=/^__s=[A-Za-z0-9]{6\,}/,domain=~univis.uni-erlangen.de|~univis.uni-bamberg.de|~univis.uni-luebeck.de|~univis.uni-kiel.de|~univis.th-koeln.de
+! MailChimp click tracking
+$removeparam=mc_eid
+! moshimo affiliate
+$removeparam=maf
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2597385
+$removeparam=_clde
+$removeparam=_cldee
+! URL Campaign Mapper
+! https://documentation.mapp.com/latest/en/url-campaign-mapper-19109338.html
+$removeparam=wt_mc
+! https://github.com/AdguardTeam/AdguardFilters/issues/100448
+! https://github.com/AdguardTeam/AdguardFilters/issues/115746
+$removeparam=oprtrack
+! Campaign link tracking
+! https://developers.atinternet-solutions.com/as2-tagging-en/javascript-en/campaigns-javascript-en/marketing-campaigns-javascript-en/#direct-method_5
+$removeparam=xtor
+! Microsoft Click ID
+! https://help.ads.microsoft.com/apex/index/3/en/60000
+$removeparam=msclkid
+! vero
+$removeparam=vero_conv
+$removeparam=vero_id
+! ITM
+! https://github.com/AdguardTeam/AdguardFilters/issues/126713
+! https://www.parse.ly/help/kb/campaign-tracking-guide
+! https://www.smashingmagazine.com/2017/08/tracking-internal-marketing-campaigns-google-analytics/
+$removeparam=itm_source
+$removeparam=itm_medium
+$removeparam=itm_campaign
+$removeparam=itm_content
+$removeparam=itm_term
+! UTM
+$removeparam=utm_ad
+$removeparam=utm_affiliate
+$removeparam=utm_brand
+$removeparam=utm_campaign
+$removeparam=utm_campaignid
+$removeparam=utm_channel
+$removeparam=utm_cid
+$removeparam=utm_content
+$removeparam=utm_emcid
+$removeparam=utm_emmid
+$removeparam=utm_id
+$removeparam=utm_keyword
+$removeparam=utm_medium
+$removeparam=utm_name
+$removeparam=utm_place
+$removeparam=utm_product
+$removeparam=utm_pubreferrer
+$removeparam=utm_reader
+$removeparam=utm_referrer
+$removeparam=utm_serial
+$removeparam=utm_session
+$removeparam=utm_siteid
+$removeparam=utm_social
+$removeparam=utm_social-type
+$removeparam=utm_source
+$removeparam=utm_supplier
+$removeparam=utm_swu
+$removeparam=utm_term
+$removeparam=utm_umguk
+$removeparam=utm_userid
+$removeparam=utm_viz_id
+! Google ads/analytics
+$removeparam=gbraid
+$removeparam=wbraid
+$removeparam=gclsrc
+$removeparam=gclid
+! Google AMP-analytics
+$removeparam=usqp
+! DPG Media analytics
+! Used on Dutch sites
+$removeparam=dpg_source
+$removeparam=dpg_campaign
+$removeparam=dpg_medium
+$removeparam=dpg_content
+! AdmitAd tracking
+$removeparam=admitad_uid
+! adjust.com tracking
+$removeparam=gps_adid
+$removeparam=unicorn_click_id
+$removeparam=adjust_creative
+$removeparam=adjust_tracker_limit
+$removeparam=adjust_tracker
+$removeparam=adjust_adgroup
+$removeparam=adjust_campaign
+! https://github.com/AdguardTeam/AdguardFilters/issues/89869
+! email subscriptions tracking
+$removeparam=bsft_clkid
+$removeparam=bsft_eid
+$removeparam=bsft_mid
+$removeparam=bsft_uid
+$removeparam=bsft_aaid
+$removeparam=bsft_ek
+! Matomo/Piwik
+$removeparam=mtm_campaign
+$removeparam=mtm_cid
+$removeparam=mtm_content
+$removeparam=mtm_group
+$removeparam=mtm_keyword
+$removeparam=mtm_medium
+$removeparam=mtm_placement
+$removeparam=mtm_source
+$removeparam=pk_campaign
+$removeparam=pk_medium
+$removeparam=pk_source
+! Branch.io ( https://stackoverflow.com/questions/37882810/what-is-meaning-of-branch-match-id )
+$removeparam=_branch_match_id
+! Valuecommerce ( https://help.valuecommerce.ne.jp/mer/dl/ITP2.0_for_iTAG.pdf )
+$removeparam=vc_lpp
+! https://github.com/brave/brave-browser/issues/17507
+$removeparam=ml_subscriber
+$removeparam=ml_subscriber_hash
+! https://github.com/brave/brave-browser/issues/17451
+$removeparam=rb_clickid
+! https://github.com/brave/brave-browser/issues/13644
+$removeparam=oly_anon_id
+$removeparam=oly_enc_id
+! AD EBiS
+$removeparam=ebisAdID
+! Wicked Reports click tracking
+$removeparam=wickedid
+! https://github.com/AdguardTeam/AdguardFilters/issues/108478
+$removeparam=irgwc
+! Facebook analytics
+$removeparam=fbclid
+!
+$removeparam=adfrom
+$removeparam=nx_source
+$removeparam=_zucks_suid
+$removeparam=cmpid
+$removeparam=asgtbndr
+$removeparam=guccounter
+$removeparam=guce_referrer
+$removeparam=guce_referrer_sig
+$removeparam=_openstat
+$removeparam=action_object_map
+$removeparam=action_ref_map
+$removeparam=action_type_map
+$removeparam=fb_action_ids
+$removeparam=fb_action_types
+$removeparam=fb_comment_id
+$removeparam=fb_ref
+$removeparam=fb_source

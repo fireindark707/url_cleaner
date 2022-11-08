@@ -1,0 +1,1707 @@
+{
+    "GENERAL": [
+        "nx_source",
+        "_zucks_suid",
+        "cmpid",
+        "asgtbndr",
+        "guccounter",
+        "guce_referrer",
+        "guce_referrer_sig",
+        "_openstat",
+        "action_object_map",
+        "action_ref_map",
+        "action_type_map",
+        "fb_action_ids",
+        "fb_action_types",
+        "fb_comment_id",
+        "fb_ref",
+        "fb_source",
+        "fbclid",
+        "xtor",
+        "utm_campaign",
+        "utm_channel",
+        "utm_cid",
+        "utm_content",
+        "utm_id",
+        "utm_medium",
+        "utm_name",
+        "utm_place",
+        "utm_pubreferrer",
+        "utm_reader",
+        "utm_referrer",
+        "utm_serial",
+        "utm_social",
+        "utm_social-type",
+        "utm_source",
+        "utm_swu",
+        "utm_term",
+        "utm_userid",
+        "utm_viz_id",
+        "utm_product",
+        "utm_campaignid",
+        "utm_ad",
+        "utm_brand",
+        "utm_emcid",
+        "utm_emmid",
+        "utm_umguk",
+        "gbraid",
+        "wbraid",
+        "gclsrc",
+        "gclid",
+        "yclid",
+        "dpg_source",
+        "dpg_campaign",
+        "dpg_medium",
+        "dpg_content",
+        "admitad_uid",
+        "gps_adid",
+        "unicorn_click_id",
+        "adjust_creative",
+        "adjust_tracker_limit",
+        "adjust_tracker",
+        "adjust_adgroup",
+        "adjust_campaign",
+        "bsft_clkid",
+        "bsft_eid",
+        "bsft_mid",
+        "bsft_uid",
+        "bsft_aaid",
+        "bsft_ek",
+        "mtm_campaign",
+        "mtm_cid",
+        "mtm_content",
+        "mtm_group",
+        "mtm_keyword",
+        "mtm_medium",
+        "mtm_placement",
+        "mtm_source",
+        "pk_campaign",
+        "pk_medium",
+        "pk_source",
+        "_branch_match_id",
+        "vc_lpp",
+        "ml_subscriber",
+        "ml_subscriber_hash",
+        "rb_clickid",
+        "oly_anon_id",
+        "oly_enc_id",
+        "ebisAdID",
+        "irgwc",
+        "dclid",
+        "utm_bccid",
+        "dt_dapp",
+        "dt_platform",
+        "spm",
+        "scm",
+        "refer_uri_app",
+        "wechatShare",
+        "at_medium",
+        "at_campaign",
+        "/^at_custom/",
+        "cx_click",
+        "mkt_tok",
+        "mindbox-message-key",
+        "_kx",
+        "s_cid",
+        "awc",
+        "__hsfp",
+        "__hssc",
+        "__hstc",
+        "_hsenc",
+        "hsa_acc",
+        "hsa_ad",
+        "hsa_cam",
+        "hsa_grp",
+        "hsa_kw",
+        "hsa_la",
+        "hsa_mt",
+        "hsa_net",
+        "hsa_ol",
+        "hsa_src",
+        "hsa_tgt",
+        "hsa_ver",
+        "hsCtaTracking",
+        "ysclid",
+        "aiad_clid",
+        "_sgm_campaign",
+        "_sgm_source",
+        "_sgm_action",
+        "mc_eid",
+        "maf",
+        "_clde",
+        "_cldee",
+        "wt_mc",
+        "oprtrack",
+        "msclkid",
+        "vero_conv",
+        "vero_id",
+        "itm_source",
+        "itm_medium",
+        "itm_campaign",
+        "itm_content",
+        "itm_term",
+        "utm_affiliate",
+        "utm_keyword",
+        "utm_session",
+        "utm_siteid",
+        "utm_supplier",
+        "usqp",
+        "wickedid",
+        "adfrom"
+    ],
+    "amazon.*": [
+        "tag",
+        "creative",
+        "creativeASIN",
+        "camp",
+        "ascsubtag",
+        "vt",
+        "refRID",
+        "pd_rd_i",
+        "pd_rd_r",
+        "pd_rd_wg",
+        "pd_rd_w",
+        "pf_rd_i",
+        "pf_rd_m",
+        "pf_rd_p",
+        "pf_rd_r",
+        "pf_rd_s",
+        "pf_rd_t",
+        "pf_rd_w",
+        "initialIssue",
+        "smid",
+        "plattr",
+        "field-lbr_brands_browse-bin",
+        "ingress",
+        "visitId",
+        "rdc",
+        "qid",
+        "dchild",
+        "c",
+        "ts_id",
+        "/^sr/",
+        "geniuslink",
+        "th",
+        "ref",
+        "qsid",
+        "keywords",
+        {
+            "pathname": "/dp/",
+            "search": "tag"
+        },
+        {
+            "pathname": "/aa",
+            "search": "bitCampaignCode"
+        },
+        {
+            "pathname": "/hz/contact-us/csp",
+            "search": "/entries/"
+        },
+        {
+            "pathname": "/hz/contact-us/csp",
+            "search": "/Version/"
+        },
+        {
+            "pathname": "/hz/contact-us/csp",
+            "search": "source"
+        },
+        {
+            "pathname": "/hz/contact-us/csp",
+            "search": "from"
+        },
+        {
+            "pathname": "/message-us",
+            "search": "muClientName"
+        }
+    ],
+    "www.ebay.*": [
+        "_trkparms",
+        "_trksid",
+        "amdata",
+        "mkrid",
+        "campid"
+    ],
+    "aliexpress.*": [
+        "spm",
+        "scm",
+        "scm_id",
+        "scm-url",
+        "utparam",
+        "aff_fcid",
+        "terminal_id",
+        "aff_trace_key",
+        "aff_fsk",
+        "pvid",
+        "dp",
+        "sk"
+    ],
+    "daraz.*": [
+        "spm",
+        "scm",
+        "from",
+        "keyori",
+        "sugg",
+        "search",
+        "mp",
+        "c",
+        "/^abtest/",
+        "/^abbucket/",
+        "pos",
+        "themeID",
+        "algArgs",
+        "clickTrackInfo",
+        "acm",
+        "item_id",
+        "version",
+        "up_id",
+        "pvid"
+    ],
+    "hog.*": [
+        "ad"
+    ],
+    "play.google.*": [
+        "referrer",
+        {
+            "pathname": "/store/",
+            "search": "pcampaignid"
+        }
+    ],
+    "google.*": [
+        {
+            "pathname": "/websearch",
+            "search": "visit_id"
+        },
+        {
+            "pathname": "/search",
+            "search": "biw"
+        },
+        {
+            "pathname": "/search",
+            "search": "bih"
+        },
+        {
+            "pathname": "/search",
+            "search": "sa"
+        },
+        {
+            "pathname": "/search",
+            "search": "source"
+        },
+        {
+            "pathname": "/search",
+            "search": "aqs"
+        },
+        {
+            "pathname": "/search",
+            "search": "sourceid"
+        },
+        {
+            "pathname": "/search",
+            "search": "ei"
+        },
+        {
+            "pathname": "/search",
+            "search": "gs_lcp"
+        },
+        "shorturl"
+    ],
+    "lotto.gmx.*": [
+        "partnerId",
+        "advertisementId"
+    ],
+    "shopping.gmx.*": [
+        "origin"
+    ],
+    "gmx.*": [
+        {
+            "pathname": "/logoutlounge",
+            "search": "p"
+        },
+        "mc"
+    ],
+    "yandex.*": [
+        "clid",
+        "source",
+        {
+            "pathname": "/news/",
+            "search": "tag"
+        },
+        {
+            "pathname": "/news/",
+            "search": "persistent_id"
+        },
+        {
+            "pathname": "/news/",
+            "search": "msid"
+        },
+        {
+            "pathname": "/news/",
+            "search": "mlid"
+        },
+        {
+            "pathname": "/news/",
+            "search": "stid"
+        },
+        {
+            "pathname": "/sport/",
+            "search": "persistent_id"
+        },
+        {
+            "pathname": "/sport/",
+            "search": "msid"
+        },
+        {
+            "pathname": "/sport/",
+            "search": "mlid"
+        },
+        {
+            "pathname": "/sport/",
+            "search": "stid"
+        },
+        {
+            "pathname": "/images/",
+            "search": "source-serpid"
+        }
+    ],
+    "weibo.*": [
+        "pagetype",
+        "from",
+        "weibo_id",
+        "dt_dapp"
+    ],
+    "approach.yahoo.co.jp": [
+        "code",
+        "src"
+    ],
+    "taobao.com": [
+        "scm",
+        "pvid",
+        "utparam",
+        "traceId",
+        "activityId",
+        "xId",
+        "ptl",
+        "app_pvid"
+    ],
+    "agoda.com": [
+        "tag"
+    ],
+    "editor.flixier.com": [
+        "fx_source",
+        "fx_medium",
+        "fx_campaign",
+        "/fx_(source"
+    ],
+    "github.com": [
+        {
+            "pathname": "/signup",
+            "search": "source"
+        },
+        {
+            "pathname": "/signup",
+            "search": "/^ref_/"
+        }
+    ],
+    "tradingview.com": [
+        "source"
+    ],
+    "api.cxense.com": [
+        "/^cx_/",
+        "/^pickup_list_click/"
+    ],
+    "nikki.ne.jp": [
+        "l-id"
+    ],
+    "rakuten.co.jp": [
+        "l-id",
+        "scid",
+        "trflg",
+        "sc2id"
+    ],
+    "websearch.rakuten.co.jp": [
+        {
+            "pathname": "/Web",
+            "search": "ref"
+        }
+    ],
+    "rebates.jp": [
+        "l-id"
+    ],
+    "azby.fmworld.net": [
+        "mc_pc",
+        {
+            "pathname": "/cgi-bin/common/rd.cgi",
+            "search": "affitest"
+        }
+    ],
+    "toku.yahoo.co.jp": [
+        "fr"
+    ],
+    "nikkei.com": [
+        "i_cid",
+        "n_cid"
+    ],
+    "nikkeibp.co.jp": [
+        "i_cid"
+    ],
+    "cyberlink.com": [
+        "affid"
+    ],
+    "zestradar.com": [
+        "adclid"
+    ],
+    "hit.gemius.pl": [
+        {
+            "pathname": "/hitredir",
+            "search": "id"
+        },
+        {
+            "pathname": "/hitredir",
+            "search": "extra"
+        }
+    ],
+    "adorama.com": [
+        "obem",
+        "bc_pid"
+    ],
+    "adjust.com": [
+        "adgroup"
+    ],
+    "tiktok.com": [
+        "share_app_id",
+        "share_author_id",
+        "tt_from",
+        "sec_uid",
+        "web_id"
+    ],
+    "reddit.app.link": [
+        "adblock",
+        "compact_view",
+        "dnt",
+        "geoip_country",
+        "referrer_domain",
+        "referrer_url"
+    ],
+    "dmkt-sp.jp": [
+        "impressionId"
+    ],
+    "dmm.co.jp": [
+        "dmmref",
+        "i3_ord",
+        "i3_ref"
+    ],
+    "imdb.com": [
+        "ref_",
+        "pf_rd_m",
+        "pf_rd_p",
+        "pf_rd_r",
+        "pf_rd_s",
+        "pf_rd_t",
+        "pf_rd_i"
+    ],
+    "livedoor.biz": [
+        "ref"
+    ],
+    "reddit.com": [
+        "_branch_referrer",
+        "post_fullname",
+        "correlation_id",
+        "ref_campaign",
+        "ref_source",
+        "ref",
+        "$deep_link",
+        "post_index",
+        "$3p"
+    ],
+    "adj.st": [
+        "CollectionId",
+        "adjust_deeplink"
+    ],
+    "data.alexa.com": [
+        {
+            "pathname": "/data/",
+            "search": "cdt"
+        },
+        {
+            "pathname": "/data/",
+            "search": "ref"
+        }
+    ],
+    "comodo.com": [
+        "track",
+        "af",
+        "key5sk1"
+    ],
+    "coupang.com": [
+        "wRef",
+        "traceid",
+        "wTime",
+        "wPcid"
+    ],
+    "link.coupang.com": [
+        "lptag"
+    ],
+    "wuzhuiso.com": [
+        "src"
+    ],
+    "nordvpn.com": [
+        "data1"
+    ],
+    "upgrad.com": [
+        "UTM_MEDIUM"
+    ],
+    "adweek.com": [
+        "traffic_source"
+    ],
+    "adguard-vpn.com": [
+        "aid"
+    ],
+    "adguard-dns.com": [
+        "aid"
+    ],
+    "adguard.com": [
+        "aid",
+        "clid"
+    ],
+    "kitbag.com": [
+        "_ref",
+        "ab"
+    ],
+    "web.vstat.info": [
+        "guid",
+        "user_agent"
+    ],
+    "start.pm.by": [
+        "adtag"
+    ],
+    "mail.ru": [
+        "oprtrack"
+    ],
+    "redhotpawn.com": [
+        "cbqsid"
+    ],
+    "trendyol.com": [
+        "tyutm_source",
+        "tyutm_medium",
+        "tyutm_campaign",
+        "_ga",
+        "utm_subaff"
+    ],
+    "cc.loginfra.com": [
+        {
+            "pathname": "/cc",
+            "search": "a"
+        },
+        {
+            "pathname": "/cc",
+            "search": "bw"
+        },
+        {
+            "pathname": "/cc",
+            "search": "px"
+        },
+        {
+            "pathname": "/cc",
+            "search": "py"
+        },
+        {
+            "pathname": "/cc",
+            "search": "sx"
+        },
+        {
+            "pathname": "/cc",
+            "search": "sy"
+        },
+        {
+            "pathname": "/cc",
+            "search": "nsc"
+        }
+    ],
+    "mein.onlinekonto.de": [
+        "ref"
+    ],
+    "dengekionline.com": [
+        "osusume_banner"
+    ],
+    "listelerim.hepsiburada.com": [
+        "af_ad",
+        "af_adset",
+        "af_force_deeplink",
+        "pid",
+        "c",
+        "is_retargeting",
+        "shortlink"
+    ],
+    "cyber-ad01.cc": [
+        "ip"
+    ],
+    "d-markets.net": [
+        "ref"
+    ],
+    "weidian.com": [
+        "distributorid",
+        "wfr",
+        "ifr",
+        "share_relation",
+        "source",
+        "/distributorid"
+    ],
+    "jasonsavard.com": [
+        "cUrl",
+        "ref",
+        "/cUrl"
+    ],
+    "expressvpn.com": [
+        "a_aid"
+    ],
+    "vpnarea.com": [
+        "a_aid"
+    ],
+    "lcs.naver.com": [
+        {
+            "pathname": "/m",
+            "search": "os"
+        },
+        {
+            "pathname": "/m",
+            "search": "ln"
+        },
+        {
+            "pathname": "/m",
+            "search": "sr"
+        },
+        {
+            "pathname": "/m",
+            "search": "bw"
+        },
+        {
+            "pathname": "/m",
+            "search": "bh"
+        },
+        {
+            "pathname": "/m",
+            "search": "ls"
+        },
+        {
+            "pathname": "/m",
+            "search": "navigationStart"
+        },
+        {
+            "pathname": "/m",
+            "search": "requestStart"
+        },
+        {
+            "pathname": "/m",
+            "search": "responseStart"
+        },
+        {
+            "pathname": "/m",
+            "search": "responseEnd"
+        },
+        {
+            "pathname": "/m",
+            "search": "domLoading"
+        },
+        {
+            "pathname": "/m",
+            "search": "domInteractive"
+        },
+        {
+            "pathname": "/m",
+            "search": "domContentLoadedEventStart"
+        },
+        {
+            "pathname": "/m",
+            "search": "domContentLoadedEventEnd"
+        },
+        {
+            "pathname": "/m",
+            "search": "domComplete"
+        },
+        {
+            "pathname": "/m",
+            "search": "loadEventStart"
+        },
+        {
+            "pathname": "/m",
+            "search": "loadEventEnd"
+        },
+        {
+            "pathname": "/m",
+            "search": "pid"
+        },
+        {
+            "pathname": "/m",
+            "search": "ts"
+        }
+    ],
+    "edx.org": [
+        "source"
+    ],
+    "infoq.com": [
+        "topicPageSponsorship",
+        "/^itm_/",
+        "/topicPageSponsorship"
+    ],
+    "coupondunia.in": [
+        "itm_source"
+    ],
+    "adshares.net": [
+        "cid"
+    ],
+    "get.adobe.com": [
+        "browser_type",
+        "browser_dist",
+        "type",
+        "workflow",
+        "promoid",
+        "TRILIBIS_EMULATOR_UA"
+    ],
+    "app.5-delivery.ru": [
+        "c",
+        "pid"
+    ],
+    "voyeur-house.tv": [
+        "clickid"
+    ],
+    "cht.com.tw": [
+        "Source",
+        "Identifier"
+    ],
+    "aufast.co": [
+        "/^utm_/",
+        "clickid"
+    ],
+    "iqbroker.com": [
+        "afftrack",
+        "clickid",
+        "aff_model"
+    ],
+    "dailymotion.com": [
+        {
+            "pathname": "/embed/video/",
+            "search": "ads_params"
+        },
+        {
+            "pathname": "/embed/video/",
+            "search": "origin"
+        }
+    ],
+    "wired.co.uk": [
+        "mbid"
+    ],
+    "wikihow.com": [
+        "?utm_source"
+    ],
+    "kohls.com": [
+        "CID"
+    ],
+    "instagram.com": [
+        "igshid",
+        "ig_rid"
+    ],
+    "euronews.com": [
+        "_ope"
+    ],
+    "steampowered.com": [
+        "curator_clanid"
+    ],
+    "steamcommunity.com": [
+        "curator_clanid"
+    ],
+    "mediamarkt.com.tr": [
+        "rbtc"
+    ],
+    "t.myvisualiq.net": [
+        "~red"
+    ],
+    "uspoloassn.com": [
+        "ref"
+    ],
+    "arcelik.com.tr": [
+        "ref"
+    ],
+    "express.de": [
+        "cb"
+    ],
+    "ksta.de": [
+        "cb"
+    ],
+    "linkedin.com": [
+        {
+            "pathname": "/authwall",
+            "search": "trkInfo"
+        },
+        {
+            "pathname": "/authwall",
+            "search": "originalReferer"
+        },
+        "original_referer",
+        "refId",
+        "trackingId",
+        "/^trk/"
+    ],
+    "digikey.com": [
+        "/^mkt_tok/",
+        "/^utm_cid/"
+    ],
+    "nicovideo.jp": [
+        "cmnhd_ref",
+        "ref"
+    ],
+    "search.naver.com": [
+        {
+            "pathname": "/search.naver",
+            "search": "tqi"
+        }
+    ],
+    "cc.naver.com": [
+        {
+            "pathname": "/cc",
+            "search": "bw"
+        },
+        {
+            "pathname": "/cc",
+            "search": "px"
+        },
+        {
+            "pathname": "/cc",
+            "search": "py"
+        },
+        {
+            "pathname": "/cc",
+            "search": "sx"
+        },
+        {
+            "pathname": "/cc",
+            "search": "sy"
+        }
+    ],
+    "www.baidu.com": [
+        "rsv_pq",
+        "rsv_t",
+        {
+            "pathname": "/link",
+            "search": "eqid"
+        }
+    ],
+    "cod.bitrec.com": [
+        {
+            "pathname": "/topocentras-services/js/recs",
+            "search": "visitorId"
+        },
+        {
+            "pathname": "/topocentras-services/js/recs",
+            "search": "externalVisitorId"
+        },
+        {
+            "pathname": "/topocentras-services/js/recs",
+            "search": "r"
+        }
+    ],
+    "app.mi.com": [
+        {
+            "pathname": "/download/",
+            "search": "ref"
+        },
+        {
+            "pathname": "/download/",
+            "search": "nonce"
+        },
+        {
+            "pathname": "/download/",
+            "search": "appClientId"
+        },
+        {
+            "pathname": "/download/",
+            "search": "appSignature"
+        }
+    ],
+    "mp.weixin.qq.com": [
+        "chksm",
+        "key",
+        "uin",
+        "devicetype",
+        "exportkey",
+        "mpshare",
+        "scene",
+        "srcid",
+        "nettype",
+        "from",
+        "subscene",
+        "clicktime",
+        "enterid",
+        "sharer_sharetime",
+        "sharer_shareid",
+        "sessionid",
+        "v_p",
+        "WBAPIAnalysisOriUICodes",
+        "launchid",
+        "wm",
+        "aid",
+        "isappinstalled",
+        "forceh5"
+    ],
+    "pixel.adsafeprotected.com": [
+        {
+            "pathname": "/services/pub",
+            "search": "slot"
+        },
+        {
+            "pathname": "/services/pub",
+            "search": "sessionId"
+        },
+        {
+            "pathname": "/services/pub",
+            "search": "anId"
+        },
+        {
+            "pathname": "/services/pub",
+            "search": "wr"
+        },
+        {
+            "pathname": "/services/pub",
+            "search": "sr"
+        },
+        {
+            "pathname": "/services/pub",
+            "search": "url"
+        }
+    ],
+    "cam4.com": [
+        "act",
+        "suid",
+        "showSignupPopup"
+    ],
+    "office.com": [
+        "ocid"
+    ],
+    "twitter.com": [
+        "ref_src",
+        "ref_url",
+        "s",
+        "t"
+    ],
+    "zerkalo.io": [
+        "tg",
+        "vk"
+    ],
+    "microsoft.com": [
+        "tduid",
+        "irclickid",
+        "ranEAID",
+        "ranSiteID",
+        "ocid",
+        "epi"
+    ],
+    "xbox.com": [
+        "epi"
+    ],
+    "duda.co": [
+        "irclickid"
+    ],
+    "marktjagd.de": [
+        "client"
+    ],
+    "kaspersky.com": [
+        "icid"
+    ],
+    "coursera.org": [
+        "siteID"
+    ],
+    "mag2.com": [
+        "trflg"
+    ],
+    "dailymail.co.uk": [
+        "ito"
+    ],
+    "hepsiburada.com": [
+        "wt_af",
+        "af_ad",
+        "af_adset",
+        "af_click_lookback",
+        "af_force_deeplink",
+        "pid",
+        "c",
+        "is_retargeting",
+        "shortlink",
+        "wt_gl"
+    ],
+    "mioga.de": [
+        "pl",
+        "idealoid"
+    ],
+    "ejoker.de": [
+        "sPartner",
+        "idealoid"
+    ],
+    "lotto.web.de": [
+        "partnerId",
+        "advertisementId"
+    ],
+    "shopping.web.de": [
+        "origin"
+    ],
+    "web.de": [
+        {
+            "pathname": "/logoutlounge",
+            "search": "p"
+        },
+        "mc"
+    ],
+    "ad.doubleclick.net": [
+        {
+            "pathname": "/ddm/trackclk/",
+            "search": "/^dc_trk_/"
+        }
+    ],
+    "alza.de": [
+        {
+            "pathname": "/.*\\.htm/",
+            "search": "kampan"
+        }
+    ],
+    "cosse.de": [
+        "referer",
+        "sPartner"
+    ],
+    "idealo.de": [
+        {
+            "pathname": "/.*\\.html/",
+            "search": "offerKey"
+        },
+        {
+            "pathname": "/.*\\.html/",
+            "search": "offerListId"
+        }
+    ],
+    "marketing.net.idealo-partner.com": [
+        "smc2",
+        "smc5",
+        "amc",
+        "etcc_cmp",
+        "etcc_med",
+        "etcc_produkt"
+    ],
+    "media01.eu": [
+        {
+            "pathname": "/set.aspx",
+            "search": "trackid"
+        }
+    ],
+    "netgames.de": [
+        "refID",
+        "idealoid"
+    ],
+    "www.alternate.de": [
+        "partner",
+        "campaign",
+        "idealoid"
+    ],
+    "www.galaxus.de": [
+        "pcscpId"
+    ],
+    "www.lidl.de": [
+        "msktc"
+    ],
+    "www.otto.de": [
+        "ActionID",
+        "AffiliateID",
+        "campid"
+    ],
+    "www.pricezilla.de": [
+        "bid"
+    ],
+    "boomstore.de": [
+        {
+            "pathname": "/.*\\.html/",
+            "search": "campaign"
+        }
+    ],
+    "www.technikdirekt.de": [
+        "sPartner",
+        "idealoid"
+    ],
+    "www.hitseller.de": [
+        "sPartner",
+        "idealoid",
+        "etcc_cmp",
+        "etcc_med",
+        "etcc_produkt"
+    ],
+    "galaxus.de": [
+        "idealoid"
+    ],
+    "www.electronic4you.de": [
+        "idealoid"
+    ],
+    "visit.digidip.net": [
+        "ppref",
+        "ref",
+        "pid",
+        "/^(ppref"
+    ],
+    "ad.admitad.com": [
+        "/^subid/"
+    ],
+    "mvideo.ru": [
+        "_requestid",
+        "reff",
+        "/^(_requestid"
+    ],
+    "nytimes.com": [
+        "impression_id"
+    ],
+    "search.yahoo.co.jp": [
+        "fr"
+    ],
+    "bilibili.com": [
+        "from",
+        "seid",
+        "/^share_/",
+        "spm_id_from",
+        "from_spm_id",
+        "timestamp",
+        "unique_k",
+        "refer_from",
+        "bbid",
+        "ts",
+        "-Arouter",
+        "broadcast_type",
+        "is_room_feed",
+        "vd_source",
+        "is_story_h5",
+        "share_source",
+        "share_medium",
+        "share_plat",
+        "share_session_id",
+        "share_tag"
+    ],
+    "search.bilibili.com": [
+        "from_source"
+    ],
+    "bbc.com": [
+        "ocid",
+        "/^pinned_/",
+        "/^ns_/"
+    ],
+    "bbc.co.uk": [
+        "ocid",
+        "/^pinned_/",
+        "/^ns_/"
+    ],
+    "youtube.com": [
+        "feature"
+    ],
+    "douban.com": [
+        "_i",
+        "_dtcc",
+        "from",
+        "dt_platform"
+    ],
+    "v.youku.com": [
+        "sharefrom",
+        "sharekey",
+        "ptag",
+        "scm",
+        "spm"
+    ],
+    "www.xiaoyuzhoufm.com": [
+        "s"
+    ],
+    "m.baidu.com": [
+        {
+            "pathname": "/sf",
+            "search": "frsrcid"
+        },
+        {
+            "pathname": "/sf",
+            "search": "openapi"
+        },
+        {
+            "pathname": "/sf",
+            "search": "cambrian_id"
+        },
+        {
+            "pathname": "/sf",
+            "search": "baijiahao_id"
+        },
+        {
+            "pathname": "/sf",
+            "search": "ext"
+        },
+        {
+            "pathname": "/sf",
+            "search": "top"
+        },
+        {
+            "pathname": "/sf",
+            "search": "_t"
+        }
+    ],
+    "sohu.com": [
+        "pvid",
+        "_f",
+        "_trans_",
+        "scm",
+        "spm"
+    ],
+    "dw.com": [
+        "maca"
+    ],
+    "open.spotify.com": [
+        "si",
+        "context",
+        "_branch_referrer"
+    ],
+    "podcasts.apple.com": [
+        "i",
+        "mt",
+        "itscg",
+        "itsct"
+    ],
+    "zhihu.com": [
+        {
+            "pathname": "/search",
+            "search": "search_source"
+        },
+        {
+            "pathname": "/search",
+            "search": "hybrid_search_source"
+        },
+        {
+            "pathname": "/search",
+            "search": "hybrid_search_extra"
+        }
+    ],
+    "bbs.jjwxc.net": [
+        "boardpagemsg"
+    ],
+    "reuters.com": [
+        "taid"
+    ],
+    "caixin.com": [
+        "cxw",
+        "Sfrom",
+        "originReferrer"
+    ],
+    "tieba.baidu.com": [
+        "share",
+        "fr",
+        "sfc",
+        "client_type",
+        "client_version",
+        "st",
+        "unique"
+    ],
+    "itunes.apple.com": [
+        "pt",
+        "ct",
+        "mt"
+    ],
+    "rfi.fr": [
+        "ref"
+    ],
+    "xiaohongshu.com": [
+        "share_from_user_hidden",
+        "xhsshare",
+        "/^app/",
+        "type"
+    ],
+    "shuidichou.com": [
+        "channel",
+        "source",
+        "forwardFrom",
+        "userSourceId",
+        "/^share/"
+    ],
+    "item.taobao.com": [
+        "price",
+        "sourceType",
+        "suid",
+        "ut_sk",
+        "un",
+        "/^share/",
+        "un_site",
+        "spm",
+        "/^sp_/",
+        "tbSocialPopKey",
+        "cpp",
+        "short_name",
+        "bxsign",
+        "tk",
+        "app",
+        "iconType",
+        "detailSharePosition"
+    ],
+    "h5.m.goofish.com": [
+        "ut_sk",
+        "forceFlush",
+        "ownerId",
+        "un",
+        "share_crt_v",
+        "un_site",
+        "sp_abtk",
+        "sp_tk",
+        "cpp",
+        "shareurl",
+        "short_name",
+        "bxsign",
+        "tk",
+        "app"
+    ],
+    "baijiahao.baidu.com": [
+        "wfr",
+        "for",
+        "searchword"
+    ],
+    "3g.163.com": [
+        "referFrom",
+        "spss"
+    ],
+    "kuaishou.com": [
+        "fid",
+        "cc",
+        "followRefer",
+        "/^share/",
+        "docId",
+        "kpn",
+        "subBiz",
+        "photoId",
+        "userId",
+        "et",
+        "isNoRadical",
+        "originShareId",
+        "appType",
+        "timestamp",
+        "location"
+    ],
+    "csdn.net": [
+        "/^app_/",
+        "code",
+        "/^csdn_share_/",
+        "ctrtid"
+    ],
+    "getir.com": [
+        "af_xp",
+        "af_force_deeplink",
+        "pid",
+        "is_retargeting",
+        "shortlink",
+        "deep_link_value",
+        "c"
+    ],
+    "mirror.co.uk": [
+        "int_source"
+    ],
+    "wiley.com": [
+        "/elq/"
+    ],
+    "politica.com.ua": [
+        "isUser"
+    ],
+    "shopee.ph": [
+        "sp_atk",
+        "xptdk"
+    ],
+    "dzen.ru": [
+        "stid",
+        "persistent_id"
+    ],
+    "teknosa.com": [
+        "aid",
+        "campid",
+        "cid",
+        "crid",
+        "plid",
+        "sid",
+        "source"
+    ],
+    "bunte.de": [
+        "umt_source"
+    ],
+    "store.udiscovermusic.com": [
+        "/utm_/"
+    ],
+    "stripchat.com": [
+        "affiliateId",
+        "referrer",
+        "campaignId",
+        "sourceId",
+        "realDomain"
+    ],
+    "1password.university": [
+        "utm_ref"
+    ],
+    "blog.twitch.tv": [
+        "/web_only"
+    ],
+    "michaelkors.global": [
+        "ecid",
+        "cjevent",
+        "cjdata"
+    ],
+    "doctolib.de": [
+        "utm_website",
+        "utm_page-url",
+        "utm_content-group",
+        "utm_button"
+    ],
+    "nationalgeographic.com": [
+        "utm_rd"
+    ],
+    "ficbook.net": [
+        "/premiumVisit"
+    ],
+    "fmworld.net": [
+        "from"
+    ],
+    "facebook.com": [
+        "extid"
+    ],
+    "zenaps.com": [
+        "cookie",
+        "bId"
+    ],
+    "awin1.com": [
+        "linkid",
+        "clickref",
+        "awinaffid"
+    ],
+    "music.apple.com": [
+        "itsct",
+        "itscg"
+    ],
+    "netflix.com": [
+        "trackId",
+        "tctx"
+    ],
+    "moodfabrics.com": [
+        "_kx"
+    ],
+    "kamigame.jp": [
+        "kamigame_source"
+    ],
+    "shop.hololivepro.com": [
+        "pr_rec_id",
+        "pr_rec_pid",
+        "pr_ref_pid",
+        "pr_seq",
+        "pr_prod_strat"
+    ],
+    "wq.jd.com": [
+        "pvid"
+    ],
+    "redirects.tradedoubler.com": [
+        "tduid"
+    ],
+    "coolblue.nl": [
+        "clickref",
+        "ref",
+        "PHGref",
+        "cmt"
+    ],
+    "banggood.com": [
+        "utmid"
+    ],
+    "dell.com": [
+        "gacd"
+    ],
+    "revolut.com": [
+        "%7Ecampaign_id",
+        "%7Eclick_id",
+        "ext",
+        "%7Esecondary_publisher",
+        "%243p"
+    ],
+    "wise.com": [
+        "partnerizecampaignID",
+        "adref",
+        "clickref",
+        "partnerID"
+    ],
+    "mirtesen.ru": [
+        "nvuuid",
+        "bvuuid",
+        "ad"
+    ],
+    "rac.co.uk": [
+        "cid"
+    ],
+    "toomics.com": [
+        "pid",
+        "subpid",
+        "channel",
+        "gen"
+    ],
+    "get-express-vpns.com": [
+        "sxid",
+        "ttorigin"
+    ],
+    "zavvi.com": [
+        "affil",
+        "sv_campaign_id"
+    ],
+    "lazada.vn": [
+        "mkttid",
+        "laz_trackid"
+    ],
+    "lazada.com.ph": [
+        "spm",
+        "scm",
+        "acm",
+        "clickTrackInfo"
+    ],
+    "pulse.mail.ru": [
+        "/^(udid"
+    ],
+    "qcplay.co.jp": [
+        "pid",
+        "shortlink"
+    ],
+    "giphy.com": [
+        "cid",
+        "ct",
+        "rid"
+    ],
+    "cinematoday.jp": [
+        "g_clk"
+    ],
+    "xxvidsx.com": [
+        "ad",
+        "site"
+    ],
+    "rapidgator.net": [
+        "Referer"
+    ],
+    "atlassian.net": [
+        "atlOrigin"
+    ],
+    "so-net.ne.jp": [
+        "SmRcid"
+    ],
+    "ameblo.jp": [
+        "frm_id"
+    ],
+    "cancanlah.com": [
+        "click_id"
+    ],
+    "lp.sophos.com": [
+        "elqTrackId"
+    ],
+    "player.theplatform.com": [
+        "playeranalytics",
+        "targetedlink"
+    ],
+    "gearbest.com": [
+        "lkid",
+        "cid"
+    ],
+    "iguru.gr": [
+        "_unique_id",
+        "feed_id"
+    ],
+    "humblebundle.com": [
+        "hmb_medium",
+        "hmb_campaign",
+        "hmb_source",
+        "mcID",
+        "linkID"
+    ],
+    "netkeiba.com": [
+        "rf"
+    ],
+    "services.addons.mozilla.org": [
+        "telemetry-client-id"
+    ],
+    "download.mozilla.org": [
+        "attribution_sig",
+        "attribution_code"
+    ],
+    "nextgov.com": [
+        "oref"
+    ],
+    "defenseone.com": [
+        "oref"
+    ],
+    "ozon.ru": [
+        "asb2"
+    ],
+    "microsoft.msafflnk.net": [
+        "sharedid",
+        "/^subid/"
+    ],
+    "go.mysku.ru": [
+        "~r"
+    ],
+    "apple.com": [
+        "ct",
+        "pt"
+    ],
+    "buzzfeednews.com": [
+        "ref"
+    ],
+    "goodreads.com": [
+        "ref"
+    ],
+    "coconala.com": [
+        "ref",
+        "ref_kind",
+        "ref_no"
+    ],
+    "xkcd.com": [
+        "trk"
+    ],
+    "video.laxd.com": [
+        "ref"
+    ],
+    "msn.com": [
+        "pc"
+    ],
+    "tmall.com": [
+        "ali_trackid",
+        "bxsign"
+    ],
+    "aliyun.com": [
+        "scm"
+    ],
+    "creativecloud.adobe.com": [
+        "trackingid"
+    ],
+    "flipkart.com": [
+        "_refId",
+        "/^affExtParam/",
+        "affid",
+        "cid",
+        "cmpid",
+        "iid",
+        "lid",
+        "/^otracker/",
+        "pageUID",
+        "pid",
+        "pwsvid",
+        "ssid",
+        "store"
+    ],
+    "iqiyi.com": [
+        "vfrm",
+        "vfrmblk",
+        "vfrmrst"
+    ],
+    "theregister.com": [
+        "td"
+    ],
+    "deezer.com": [
+        "origin"
+    ],
+    "vercel.com": [
+        "redirected",
+        "sfmc_channel",
+        "sfmc_activity_name",
+        "sfmc_activity_id",
+        "sfmc_journey_name",
+        "sfmc_journey_id",
+        "sfmc_asset_id",
+        "sfmc_activityid"
+    ]
+}
