@@ -1,6 +1,6 @@
 [project]
 name = "url_cleaner"
-version = "0.0.1"
+version = "0.1.1"
 authors = [
   { name="phoenix000", email="phoenix000.taipei@gmail.com" },
 ]
@@ -14,8 +14,8 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/fireindark707/url_cleaner"
+"Bug Tracker" = "https://github.com/fireindark707/url_cleaner/issues"
 
 [build-system]
 requires = ["hatchling"]
