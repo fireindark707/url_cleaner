@@ -27,6 +27,12 @@ Rules from:
 
 ## Usage
 
+### Install
+
+```
+pip install url-cleaner
+```
+
 ### Clean URLs
 
 ```python3
